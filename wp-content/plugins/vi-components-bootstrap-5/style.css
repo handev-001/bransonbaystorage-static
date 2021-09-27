@@ -1,0 +1,245 @@
+/*!
+Plugin Name: VI: Components Bootstrap 4
+Plugin URI: http://neathawk.com
+Description: Just include the Bootstrap Components, on the public facing side of the website, nothing more. NOTE: Bootstrap requires jQuery.
+Version: 9.3.210302
+Author: Joseph Neathawk
+Author URI: http://Neathawk.com
+License: GNU General Public License v2 or later
+*/
+
+/*--------------------------------------------------------------
+# VI Stuff
+--------------------------------------------------------------*/
+/*
+element {
+	layout(position)
+
+	content(text)
+
+	design(background)
+
+	other(z-index)
+}
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Missing Structure
+# Media Queries
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Missing Structure
+--------------------------------------------------------------*/
+
+/* border sizes */
+.border-1 {
+    border: .25rem solid #dee2e6 !important;
+}
+.border-2 {
+    border: .5rem solid #dee2e6 !important;
+}
+.border-3 {
+    border: 1rem solid #dee2e6 !important;
+}
+.border-4 {
+    border: 1.5rem solid #dee2e6 !important;
+}
+.border-5 {
+    border: 3rem solid #dee2e6 !important;
+}
+.border-top-1 {
+    border-top: .25rem solid #dee2e6 !important;
+}
+.border-top-2 {
+    border-top: .5rem solid #dee2e6 !important;
+}
+.border-top-3 {
+    border-top: 1rem solid #dee2e6 !important;
+}
+.border-top-4 {
+    border-top: 1.5rem solid #dee2e6 !important;
+}
+.border-top-5 {
+    border-top: 3rem solid #dee2e6 !important;
+}
+.border-right-1 {
+    border-right: .25rem solid #dee2e6 !important;
+}
+.border-right-2 {
+    border-right: .5rem solid #dee2e6 !important;
+}
+.border-right-3 {
+    border-right: 1rem solid #dee2e6 !important;
+}
+.border-right-4 {
+    border-right: 1.5rem solid #dee2e6 !important;
+}
+.border-right-5 {
+    border-right: 3rem solid #dee2e6 !important;
+}
+.border-bottom-1 {
+    border-bottom: .25rem solid #dee2e6 !important;
+}
+.border-bottom-2 {
+    border-bottom: .5rem solid #dee2e6 !important;
+}
+.border-bottom-3 {
+    border-bottom: 1rem solid #dee2e6 !important;
+}
+.border-bottom-4 {
+    border-bottom: 1.5rem solid #dee2e6 !important;
+}
+.border-bottom-5 {
+    border-bottom: 3rem solid #dee2e6 !important;
+}
+.border-left-1 {
+    border-left: .25rem solid #dee2e6 !important;
+}
+.border-left-2 {
+    border-left: .5rem solid #dee2e6 !important;
+}
+.border-left-3 {
+    border-left: 1rem solid #dee2e6 !important;
+}
+.border-left-4 {
+    border-left: 1.5rem solid #dee2e6 !important;
+}
+.border-left-5 {
+    border-left: 3rem solid #dee2e6 !important;
+}
+
+
+
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
+
+/* Bootstrap xs- | for-phone-only */
+@media only screen and (max-width: 575px) {
+
+    .w-xs-25 {
+        width: 25% !important;
+    }
+    .w-xs-50 {
+        width: 50% !important;
+    }
+    .w-xs-75 {
+        width: 75% !important;
+    }
+    .w-xs-100 {
+        width: 100% !important;
+    }
+
+}
+
+/* Bootstrap sm+ | for-tablet-portrait-up */
+@media only screen and (min-width: 576px) {
+    .w-sm-25 {
+        width: 25% !important;
+    }
+    .w-sm-50 {
+        width: 50% !important;
+    }
+    .w-sm-75 {
+        width: 75% !important;
+    }
+    .w-sm-100 {
+        width: 100% !important;
+    }
+
+}
+
+/* Bootstrap sm | for-tablet-portrait-only */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* Bootstrap md+ | for-tablet-landscape-up */
+@media only screen and (min-width: 768px) {
+    .w-md-25 {
+        width: 25% !important;
+    }
+    .w-md-50 {
+        width: 50% !important;
+    }
+    .w-md-75 {
+        width: 75% !important;
+    }
+    .w-md-100 {
+        width: 100% !important;
+    }
+
+}
+
+/* Bootstrap md | for-tablet-landscape-only */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Bootstrap lg+ | for-desktop-up */
+@media only screen and (min-width: 992px) {
+    .w-lg-25 {
+        width: 25% !important;
+    }
+    .w-lg-50 {
+        width: 50% !important;
+    }
+    .w-lg-75 {
+        width: 75% !important;
+    }
+    .w-lg-100 {
+        width: 100% !important;
+    }
+
+}
+
+/* Bootstrap lg | for-desktop-only */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Bootstrap xl+ | for-desktop-up */
+@media only screen and (min-width: 1200px) {
+    .w-xl-25 {
+        width: 25% !important;
+    }
+    .w-xl-50 {
+        width: 50% !important;
+    }
+    .w-xl-75 {
+        width: 75% !important;
+    }
+    .w-xl-100 {
+        width: 100% !important;
+    }
+
+}
+
+/* Bootstrap xl | for-desktop-only */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+/* Bootstrap xxl+ | for-big-desktop-up */
+@media only screen and (min-width: 1400px) {
+    .w-xxl-25 {
+        width: 25% !important;
+    }
+    .w-xxl-50 {
+        width: 50% !important;
+    }
+    .w-xxl-75 {
+        width: 75% !important;
+    }
+    .w-xxl-100 {
+        width: 100% !important;
+    }
+
+}
+
+
+@media only print {
+
+}
